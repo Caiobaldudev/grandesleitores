@@ -51,15 +51,21 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <img src="/assets/logogl.svg" alt="Grandes Leitores logo">
-      <nav>
-        <ul class="header_menu">
+    <header>
+      <img src="/assets/logogl.svg" alt="Grandes Leitores logo" />
+      <nav class="menu">
+        <button
+          data-menu="button"
+          aria-expanded="false"
+          aria-controls="menu"
+        ></button>
+        <ul data-menu="list" id="menu">
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
     </header>
+    <script src="./script/script.js" type="module" defer></script>
   </body>
 </html>
