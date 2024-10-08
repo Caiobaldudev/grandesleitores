@@ -1,0 +1,96 @@
+/* Estilos header (mobile first) */
+[data-menu="button"] {
+  position: relative;
+  z-index: 300;
+  background: #eee;
+  height: 4rem;
+  width: 4rem;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+[data-menu="button"]::after {
+  content: "";
+  display: block;
+  width: 2.2rem;
+  height: 0.2rem;
+  background: currentColor;
+  border-radius: 2px;
+  box-shadow: 0 6px currentColor, 0 -6px currentColor;
+  transition: transform 0.3s;
+}
+
+[data-menu="button"]:focus,
+[data-menu="button"]:hover {
+  outline: none;
+  background: #fff;
+  box-shadow: 0 0 0 1px #071738;
+  border-color: #0b2251;
+  color: #0b2251;
+}
+
+[data-menu="button"].animate::after {
+  transform: rotate(90deg);
+  width: 4px;
+  height: 4px;
+  box-shadow: 0 8px currentColor, 0 -8px currentColor;
+}
+
+[data-menu="list"] {
+  position: absolute;
+  background: #0b2251;
+  width: 50%;
+  z-index: 200;
+  padding: 8rem 0 2rem 0;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.3s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+[data-menu="list"] li {
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.6rem 4rem;
+}
+
+[data-menu="list"].active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s ease-in-out, visibility 0s;
+}
+
+header {
+  font-family: var(--font-primary);
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #071738;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+img {
+  width: 18rem;
+  height: auto;
+}
+
+/* Estilos para telas maiores (desktop) */
+@media (min-width: 480px) {
+  [data-menu="button"] {
+    display: none;
+  }
+
+  [data-menu="list"] {
+    display: block;
+  }
+}
