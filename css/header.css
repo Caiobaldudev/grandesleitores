@@ -80,7 +80,7 @@ header {
 }
 
 img {
-  width: 18rem;
+  width: 14rem;
   height: auto;
 }
 
@@ -90,7 +90,32 @@ img {
     display: none;
   }
 
+  /* Ajuste menu para desktop */
   [data-menu="list"] {
-    display: block;
+    display: flex; 
+    position: static; 
+    visibility: visible;
+    opacity: 1; 
+    background: transparent;
+    box-shadow: none; 
+    padding: 0;
+    height: auto; 
+    justify-content: flex-end;
   }
+
+  [data-menu="list"] li {
+    color: #0b2251;
+    font-size: 1.6rem;
+    padding: 0 1rem;
+  }
+  
+  header {
+    font-family: var(--font-primary);
+    padding: 2rem 10rem;
+  }
+  
+  img {
+    width: 18rem;
+  }
+
 }
