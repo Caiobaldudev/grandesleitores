@@ -1,0 +1,88 @@
+@media (min-width: 480px) {
+  #promessa {
+    margin-top: 1rem;
+    padding: 6rem;
+    color: #eee;
+    /* background: #071738; */
+    background: #9ec5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    animation: backgroundTransition 8s ease-in-out infinite;
+  }
+
+  #promessa h1 {
+    font-family: var(--font-primary);
+    font-size: 3.6rem;
+    font-weight: bold;
+    /* color: #9ec5ff; */
+    color: #071738;
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  #promessa p {
+    font-family: var(--font-secondary);
+    letter-spacing: .12rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
+
+  }
+
+  #promessa a {
+    display: flex;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #071738;
+    transition: color 0.3s ease;
+  }
+
+  /* Efeito hover no link */
+  #promessa a:hover {
+    color: #fff;
+  }
+
+  #promessa a img {
+    width: 4.6rem;
+    transition: transform 0.3s ease;
+  }
+
+  /* Efeito hover na seta */
+  #promessa a:hover img {
+    transform: scale(1.1);
+  }
+
+  /* Animação da seta */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+
+  #promessa a img {
+    animation: bounce 2s infinite;
+  }
+
+  /* Animação de transição do background */
+  @keyframes backgroundTransition {
+    0% {
+      background-color: #73a6f3;
+    }
+    50% {
+      background-color: #649bef;
+    }
+    100% {
+      background-color: #73a6f3;
+    }
+  }
+}
