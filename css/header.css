@@ -41,8 +41,12 @@
   box-shadow: 0 8px currentColor, 0 -8px currentColor;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 [data-menu="list"] {
-  position: absolute;
+  position: fixed;
   background: #0b2251;
   width: 50%;
   z-index: 200;
