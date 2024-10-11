@@ -66,9 +66,9 @@
   min-height: 300px;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background-image: url('../assets/L.jpeg'); 
-  background-size: 110%; 
-  background-position: center; 
+  background-image: url("../assets/L.jpeg");
+  background-size: 110%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -84,7 +84,7 @@
   font-family: var(--font-primary);
   font-size: 2.2rem;
   font-weight: bold;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
 
 .video-wrapper {
@@ -94,18 +94,17 @@
 }
 
 .video-wrapper iframe {
-  width: 100%; 
-  height: 220px; 
-  border-radius: 8px; 
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 
 @media (min-width: 480px) {
   #promessa {
     padding: 0rem;
   }
-  
+
   #promessa .content {
     display: flex;
     height: auto;
@@ -115,11 +114,11 @@
     gap: 8rem;
     width: 100%;
   }
-  
+
   #promessa .text-content {
     text-align: start;
   }
-  
+
   #promessa h1 {
     font-family: var(--font-primary);
     font-size: 3.6rem;
@@ -127,7 +126,7 @@
     color: #071738;
     margin-bottom: 1rem;
   }
-  
+
   #promessa h2 {
     font-family: var(--font-secondary);
     font-size: 2rem;
@@ -135,7 +134,7 @@
     color: #333;
     margin-bottom: 1.5rem;
   }
-  
+
   #promessa p {
     font-family: var(--font-secondary);
     font-size: 1.8rem;
@@ -143,7 +142,7 @@
     margin: 0 0 2rem 0;
     max-width: 800px;
   }
-  
+
   #promessa a.cta-button {
     display: inline-block;
     font-size: 1.6rem;
@@ -155,34 +154,34 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  
+
   #promessa a.cta-button:hover {
     background-color: #0056b3;
   }
-  
+
   .cta-button:hover {
     background-color: #5392f1;
   }
-  
+
   #promessa .image-content {
     width: 100%;
     max-width: 450px;
     height: 60rem;
     border-radius: 20px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
-    background-image: url('../assets/L.jpeg'); 
+    background-image: url("../assets/L.jpeg");
     background-size: 120%;
-    background-position: center; 
+    background-position: center;
     background-repeat: no-repeat;
   }
 
   #video {
-    padding: 6rem 1.5rem; 
+    padding: 6rem 1.5rem;
   }
 
   .video-wrapper iframe {
-    width: 70%; 
-    max-width: 1000px; 
-    height: 500px; 
+    width: 70%;
+    max-width: 1000px;
+    height: 500px;
   }
 }
