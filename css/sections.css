@@ -14,7 +14,7 @@
   width: 100%;
 }
 
-#promessa .text-content {
+#promessa .text-init-content {
   text-align: center;
 }
 
@@ -59,7 +59,7 @@
 }
 
 /* Container da imagem */
-#promessa .image-content {
+#promessa .image-init-content{
   width: 100%;
   max-width: 600px;
   height: auto;
@@ -125,7 +125,7 @@
     font-size: 1.6rem;
   }
 
-  #promessa .image-content {
+  #promessa .image-init-content {
     max-width: 100%;
     height: auto;
   }
@@ -155,7 +155,7 @@
     width: 100%;
   }
 
-  #promessa .text-content {
+  #promessa .text-init-content {
     text-align: start;
   }
 
@@ -203,7 +203,7 @@
     background-color: #5392f1;
   }
 
-  #promessa .image-content {
+  #promessa .image-init-content {
     width: 100%;
     max-width: 450px;
     height: 60rem;
