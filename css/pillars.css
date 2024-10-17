@@ -1,0 +1,136 @@
+/* Estilo Mobile */
+#pilares {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#pilares h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: var(--font-primary);
+}
+
+#pilares p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.pilares-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f1e32;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pilares-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.pilares-lista {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.pilares-lista li {
+  display: block;
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 15px;
+  color: #fff;
+  padding: 6px 2px;
+}
+
+.pilares-lista li .numero {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #909090;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 2px;
+}
+
+.pilares-lista li strong {
+  color: #007bff;
+}
+
+.pilares-lista li span,
+.pilares-lista li strong {
+  vertical-align: middle;
+}
+
+.numero {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  background-color: #0034c2;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo responsivo para telas maiores */
+@media (min-width: 480px) {
+  #pilares {
+    width: 100%;
+    text-align: start;
+    padding: 10rem 10rem;
+  }
+
+  #pilares h2,
+  #pilares p {
+    text-align: center;
+  }
+
+  #pilares h2 {
+    font-size: 3.2rem;
+  }
+
+  #pilares p {
+    font-family: var(--font-secondary);
+    font-size: 1.8rem;
+  }
+
+  .pilares-card {
+    max-width: none;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+    padding: 20px;
+    border-radius: 6rem;
+  }
+
+  .pilares-lista {
+    width: 50%;
+  }
+
+  .pilares-img {
+    width: 50%;
+    max-width: 350px;
+  }
+}
