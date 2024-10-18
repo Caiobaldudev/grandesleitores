@@ -1,7 +1,7 @@
 /* Mobile */
 #garantia {
   text-align: center;
-  padding: 80px 10px;
+  padding: 180px 10px;
   background-color: #f9f9f9;
 }
 
@@ -39,7 +39,7 @@
 /* Desktop */
 @media (min-width: 480px) {
   #garantia {
-    padding: 100px 40px;
+    padding: 200px 40px;
   }
 
   #garantia h2 {
