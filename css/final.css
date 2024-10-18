@@ -35,8 +35,9 @@
 }
 
 .cta-button-final:hover {
-  background-color: #c31414; 
+  background-color: #c31414;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 /* Desktop */
@@ -53,5 +54,12 @@
   .cta-button-final {
     font-size: 1.8rem;
     padding: 15px 25px;
+    cursor: pointer;
+  }
+
+  .cta-button-final:hover {
+    font-size: 1.8rem;
+    padding: 15px 25px;
+    cursor: pointer;
   }
 }
