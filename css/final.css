@@ -1,0 +1,57 @@
+/* Estilo mob CTA Final */
+#cta-final {
+  padding: 80px 10px;
+  text-align: center;
+  background-color: #007bff;
+  margin: 100px 0;
+}
+
+#cta-final h2 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+#cta-final p {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.cta-button-final {
+  font-size: 1.4rem;
+  padding: 15px 30px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.cta-button-final:hover {
+  background-color: #c31414; 
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Desktop */
+@media (min-width: 428px) {
+  #cta-final h2 {
+    font-size: 3.2rem;
+  }
+
+  #cta-final p {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  .cta-button-final {
+    font-size: 1.8rem;
+    padding: 15px 25px;
+  }
+}
