@@ -1,0 +1,86 @@
+/* Estilo da seção Jeito Certo e Errado */
+#jeito-certo-errado {
+  padding: 180px 20px;
+  background-color: #ffffff;
+}
+
+#jeito-certo-errado h2 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+/* Container para jeito certo e errado */
+.jeito-certo-errado-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Divisão dos itens */
+.jeito-errado,
+.jeito-certo {
+  background-color: #0f1e32;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  height: 40rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.icon-errado, 
+.icon-certo {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Divisória */
+.divisoria {
+  display: none;
+}
+
+/* Títulos e parágrafos */
+.jeito-errado h3,
+.jeito-certo h3 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #e74c3c; /* Jeito errado fica em vermelho */
+}
+
+.jeito-certo h3 {
+  color: #2ecc71; /* Jeito certo fica em verde */
+}
+
+.jeito-errado p,
+.jeito-certo p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+/* Estilos para desktop */
+@media (min-width: 768px) {
+  .jeito-certo-errado-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .jeito-errado,
+  .jeito-certo {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+  }
+
+  .divisoria {
+    display: block;
+    width: 2px;
+    height: 40rem;
+    background-color: #e4e4e4;
+  }
+}
