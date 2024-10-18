@@ -1,0 +1,108 @@
+/* Estilo do formulário de contato */
+/* #contact-form {
+  padding: 40px 20px;
+  background-color: #e0e0e0;
+  text-align: center;
+  margin: 50px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#contact-form p {
+  font-size: 1.4rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+#contact-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+}
+
+#contact-form button {
+  font-size: 1.4rem;
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #0056b3;
+} */
+
+/* Responsivo - Desktop */
+/* @media (min-width: 428px) {
+  #contact-form {
+    padding: 60px 50px;
+    margin: 100px 0;
+  }
+
+  #contact-form h2 {
+    font-size: 2.5rem;
+  }
+
+  #contact-form p {
+    font-size: 1.6rem;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    font-size: 1.4rem;
+    padding: 15px;
+  }
+
+  #contact-form button {
+    font-size: 1.6rem;
+    padding: 15px 30px;
+  }
+} */
+
+/* Responsivo - Large Screens */
+/* @media (min-width: 768px) {
+  #contact-form {
+    max-width: 800px;
+    margin: 100px auto;
+  }
+
+  #contact-form h2 {
+    font-size: 3rem;
+  }
+
+  #contact-form p {
+    font-size: 1.8rem;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    font-size: 1.6rem;
+    padding: 20px;
+  }
+
+  #contact-form button {
+    font-size: 1.8rem;
+    padding: 20px 40px;
+  }
+} */
